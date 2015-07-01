@@ -1,0 +1,21 @@
+.c-page-title {
+    margin-bottom:  $base-spacing-unit;
+}
+
+    .c-page-title__main,
+    .c-page-title__sub {
+        font-weight: normal;
+        margin-bottom: 0;
+    }
+
+    .c-page-title__main {
+        @include font-size(40px);
+        margin-bottom: .4em;
+    }
+
+    .c-page-title__sub {
+        @include font-size(23px, 1.2);
+        border-top: 1px solid #d5d5d5;
+        margin-bottom: 1em;
+        padding-top: .3em;
+    }

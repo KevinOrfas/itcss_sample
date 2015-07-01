@@ -1,0 +1,21 @@
+.arrow-box {
+	position: relative;
+	background: #dc022e;
+	padding: 0 .1em;
+	white-space: nowrap;
+}
+
+.arrow-box:after {
+	top: 100%;
+	left: 10%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(220, 2, 46, 0);
+	border-top-color: #dc022e;
+	border-width: 10px;
+	margin-left: -10px;
+}

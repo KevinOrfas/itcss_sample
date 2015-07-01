@@ -1,0 +1,18 @@
+.gallery {
+
+	img {
+		display: inline-block;
+		width: 33%;
+		height: 15em;
+		margin-left: 0.3%;
+
+		&:last-child(){
+			margin-left: 0;
+		}
+	}
+}
+
+.selected {
+	outline: 2px solid red;
+}
+
